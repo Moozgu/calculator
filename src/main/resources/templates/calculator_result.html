@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<span th:if="${bmi < 18.5}">Niedowaga</span>
+
+<span th:if="${bmi >= 18.5 && bmi < 25}">Normalne</span>
+
+<span th:if="${bmi >= 25}" >Nadwaga</span>
+
+</body>
+</html>
